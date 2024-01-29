@@ -7,7 +7,12 @@ public class tvSet {
     int diagonalInches;
     String resolution;
 
-    tvSet() {}
+    tvSet(String m, String s, int d, String r) {
+        manufacturer = m;
+        smartPlatform = s;
+        diagonalInches = d;
+        resolution = r;
+    }
 
     void showInfo() {
         System.out.println("Dane telewizora");
