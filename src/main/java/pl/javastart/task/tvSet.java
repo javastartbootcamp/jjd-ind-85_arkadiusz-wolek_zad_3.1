@@ -1,6 +1,7 @@
 package pl.javastart.task;
 
 public class tvSet {
+
     String manufacturer;
     String smartPlatform;
     int diagonalInches;
