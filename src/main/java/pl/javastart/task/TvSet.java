@@ -1,13 +1,13 @@
 package pl.javastart.task;
 
-public class tvSet {
+public class TvSet {
 
     String manufacturer;
     String smartPlatform;
     int diagonalInches;
     String resolution;
 
-    tvSet(String m, String s, int d, String r) {
+    TvSet(String m, String s, int d, String r) {
         manufacturer = m;
         smartPlatform = s;
         diagonalInches = d;
